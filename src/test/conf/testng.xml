@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Single thread test suite" parallel="false">
+    <test name="Test call methods">
+        <classes>
+            <class name="com.github.dspirov.elevator.model.ElevatorTestCallTest"/>
+        </classes>
+    </test>
+    <test name="Test operative elevator">
+        <classes>
+            <class name="com.github.dspirov.elevator.model.OperativeElevatorBaseTest"/>
+        </classes>
+    </test>
+</suite>
